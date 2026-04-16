@@ -1,0 +1,2 @@
+[console_scripts]
+healthcare = app:check
