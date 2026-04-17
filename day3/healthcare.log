@@ -244,3 +244,7 @@
 2026-04-17 06:03:51,245 - healthcare_logger - INFO - Fetching appointment by ID: 999
 2026-04-17 06:03:51,245 - healthcare_logger - ERROR - Error occurred: Appointment with ID 999 not found
 2026-04-17 06:03:51,245 - healthcare_logger - INFO - Healthcare application finished
+2026-04-17 11:44:57,348 - healthcare_logger - INFO - Updated mobile number: 12345
+2026-04-17 11:45:20,113 - healthcare_logger - ERROR - Error: Mobile number must be a 10-digit number
+2026-04-17 11:45:39,450 - healthcare_logger - ERROR - Error: Mobile number must be a 10-digit number
+2026-04-17 11:47:30,292 - healthcare_logger - ERROR - Error: Mobile number must be a 10-digit number
