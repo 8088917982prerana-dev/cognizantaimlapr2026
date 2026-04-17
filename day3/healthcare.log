@@ -1,1 +1,36 @@
 2026-04-16 09:45:37,964 - healthcare_logger - INFO - app run
+2026-04-17 04:44:30,583 - healthcare_logger - INFO - Created doctor: Doctor 1: Dr. Smith, Specialty: Cardiology
+2026-04-17 04:44:30,584 - healthcare_logger - INFO - Created doctor: Doctor 2: Dr. Johnson, Specialty: Neurology
+2026-04-17 04:44:30,584 - healthcare_logger - INFO - Created patient: Patient 1: Alice, DOB: 1994-01-15, Ailment: Hypertension
+2026-04-17 04:44:30,584 - healthcare_logger - INFO - Created patient: Patient 2: Bob, DOB: 1999-05-20, Ailment: Diabetes
+2026-04-17 04:44:30,584 - healthcare_logger - INFO - Created appointment: Appointment 1 for Alice with Dr. Doctor 1: Dr. Smith, Specialty: Cardiology on 2024-06-01 10:00:00 at 10:00 AM
+2026-04-17 04:44:30,585 - healthcare_logger - INFO - Created appointment: Appointment 2 for Bob with Dr. Doctor 2: Dr. Johnson, Specialty: Neurology on 2024-06-02 11:00:00 at 11:00 AM
+2026-04-17 04:44:30,585 - healthcare_logger - INFO - app run
+2026-04-17 04:46:14,025 - healthcare_logger - INFO - Created doctor: Doctor 1: Dr. Smith, Specialty: Cardiology
+2026-04-17 04:46:14,025 - healthcare_logger - INFO - Created doctor: Doctor 2: Dr. Johnson, Specialty: Neurology
+2026-04-17 04:46:14,025 - healthcare_logger - INFO - Created patient: Patient 1: Alice, DOB: 1994-01-15, Ailment: Hypertension
+2026-04-17 04:46:14,025 - healthcare_logger - INFO - Created patient: Patient 2: Bob, DOB: 1999-05-20, Ailment: Diabetes
+2026-04-17 04:46:14,025 - healthcare_logger - INFO - Created appointment: Appointment 1 for Alice with Dr. Doctor 1: Dr. Smith, Specialty: Cardiology on 2024-06-01 10:00:00 at 10:00 AM
+2026-04-17 04:46:14,026 - healthcare_logger - INFO - Created appointment: Appointment 2 for Bob with Dr. Doctor 2: Dr. Johnson, Specialty: Neurology on 2024-06-02 11:00:00 at 11:00 AM
+2026-04-17 04:46:14,026 - healthcare_logger - INFO - app run
+2026-04-17 04:46:34,037 - healthcare_logger - INFO - Created doctor: Doctor 1: Dr. Smith, Specialty: Cardiology
+2026-04-17 04:46:34,037 - healthcare_logger - INFO - Created doctor: Doctor 2: Dr. Johnson, Specialty: Neurology
+2026-04-17 04:46:34,037 - healthcare_logger - INFO - Created patient: Patient 1: Alice, DOB: 1994-01-15, Ailment: Hypertension
+2026-04-17 04:46:34,037 - healthcare_logger - INFO - Created patient: Patient 2: Bob, DOB: 1999-05-20, Ailment: Diabetes
+2026-04-17 04:46:34,037 - healthcare_logger - INFO - Created appointment: Appointment 1 for Alice with Dr. Doctor 1: Dr. Smith, Specialty: Cardiology on 2024-06-01 10:00:00 at 10:00 AM
+2026-04-17 04:46:34,037 - healthcare_logger - INFO - Created appointment: Appointment 2 for Bob with Dr. Doctor 2: Dr. Johnson, Specialty: Neurology on 2024-06-02 11:00:00 at 11:00 AM
+2026-04-17 04:46:34,037 - healthcare_logger - INFO - app run
+2026-04-17 04:46:44,595 - healthcare_logger - INFO - Created doctor: Doctor 1: Dr. Smith, Specialty: Cardiology
+2026-04-17 04:46:44,595 - healthcare_logger - INFO - Created doctor: Doctor 2: Dr. Johnson, Specialty: Neurology
+2026-04-17 04:46:44,595 - healthcare_logger - INFO - Created patient: Patient 1: Alice, DOB: 1994-01-15, Ailment: Hypertension
+2026-04-17 04:46:44,595 - healthcare_logger - INFO - Created patient: Patient 2: Bob, DOB: 1999-05-20, Ailment: Diabetes
+2026-04-17 04:46:44,595 - healthcare_logger - INFO - Created appointment: Appointment 1 for Alice with Dr. Doctor 1: Dr. Smith, Specialty: Cardiology on 2024-06-01 10:00:00 at 10:00 AM
+2026-04-17 04:46:44,595 - healthcare_logger - INFO - Created appointment: Appointment 2 for Bob with Dr. Doctor 2: Dr. Johnson, Specialty: Neurology on 2024-06-02 11:00:00 at 11:00 AM
+2026-04-17 04:46:44,595 - healthcare_logger - INFO - app run
+2026-04-17 04:47:01,933 - healthcare_logger - INFO - Created doctor: Doctor 1: Dr. Smith, Specialty: Cardiology
+2026-04-17 04:47:01,933 - healthcare_logger - INFO - Created doctor: Doctor 2: Dr. Johnson, Specialty: Neurology
+2026-04-17 04:47:01,933 - healthcare_logger - INFO - Created patient: Patient 1: Alice, DOB: 1994-01-15, Ailment: Hypertension
+2026-04-17 04:47:01,934 - healthcare_logger - INFO - Created patient: Patient 2: Bob, DOB: 1999-05-20, Ailment: Diabetes
+2026-04-17 04:47:01,934 - healthcare_logger - INFO - Created appointment: Appointment 1 for Alice with Dr. Doctor 1: Dr. Smith, Specialty: Cardiology on 2024-06-01 10:00:00 at 10:00 AM
+2026-04-17 04:47:01,934 - healthcare_logger - INFO - Created appointment: Appointment 2 for Bob with Dr. Doctor 2: Dr. Johnson, Specialty: Neurology on 2024-06-02 11:00:00 at 11:00 AM
+2026-04-17 04:47:01,934 - healthcare_logger - INFO - app run
