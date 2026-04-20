@@ -1,5 +1,16 @@
-from models.customer import customer
-class corporate(customer):
-    def __init__(self, name, address, phone_number, email, account_number, password, company_type):
-        super().__init__(name, address, phone_number, email, account_number, password)
-        self.company_type = company_type
+#create corporate class with attributes name, email, phone number, company type
+from src.models.company_type import CompanyType
+from src.models.customer import Customer
+class Corporate(Customer):
+    def __init__(self, customer_id: int, name: str, email: str, phone_number: str, company_type: CompanyType):
+        super().__init__(customer_id, name, email, phone_number)
+        self.__company_type = company_type
+
+    @property
+    def company_type(self):
+        return self.__company_type
+
+    @company_type.setter
+    def company_type(self, company_type):
+        self.__company_type = company_type
+    

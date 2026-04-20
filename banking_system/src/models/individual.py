@@ -1,9 +1,28 @@
-from models.customer import customer
-class individual(customer):
-    def __init__(self, name, address, phone_number, email, account_number, password, date_of_birth, surname, gender):
-        super().__init__(name, address, phone_number, email, account_number, password)
-        self.date_of_birth = date_of_birth
-        self.surname = surname
-        self.gender = gender
-    def work_out_age(self):
-        print("calculated age")
+#individual class Individual:
+from datetime import date
+
+from src.models.customer import Customer
+from src.models.gender import Gender
+
+
+class Individual(Customer):
+    def __init__(self, customer_id: int, name: str, email: str, phone_number: str, gender: Gender, dob: date):
+        super().__init__(customer_id, name, email, phone_number)
+        self.__gender = gender
+        self.__dob = dob
+
+    @property
+    def gender(self):
+        return self.__gender
+
+    @gender.setter
+    def gender(self, gender):
+        self.__gender = gender
+
+    @property
+    def dob(self):
+        return self.__dob
+
+    @dob.setter
+    def dob(self, dob):
+        self.__dob = dob    

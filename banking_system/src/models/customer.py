@@ -1,10 +1,11 @@
-class customer:
-    def __init__(self, name, address, phone_number, email, account_number, password):
-        self.name = name
-        self.address = address
-        self.phone_number = phone_number
-        self.email = email
-        self.account_number = account_number
-        self.password = password
-    def total_number_of_transactions(self):
-        print("total customer counted")
+#create customer model
+
+from src.models.full_name import FullName
+from pydantic import BaseModel, Field
+
+class Customer(BaseModel):
+    customer_id: int = Field(...,gt=0,description="Unique identifier for the customer")
+    full_name: FullName
+    email: str = Field(..., pattern=r'^\S+@\S+\.\S+$', description="Email address of the customer")
+    phone_no: int = Field(...,  ge=1000000000,
+        le=9999999999,description="Phone number of the customer")
