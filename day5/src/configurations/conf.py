@@ -6,6 +6,7 @@ load_dotenv()
 class Config:
     def __init__(self):
         self.app_env: str = os.getenv("APP_ENV")
+        print(f"APP_ENV: {self.app_env}")
         self.resource_path: str = self.get_resource_path()
     
     def get_resource_path(self) -> str:
